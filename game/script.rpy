@@ -1351,6 +1351,101 @@ label EP4perseguicao:
     "EP4"
 
 
+        scene ConversaCillasMatheu 
+    c "Tá na hora de me servir!" 
+    m "Ótimo de amigo, a criado em poucos dias!"
+    c "Amigos?" 
+    m "Me engana que eu gosto!... Fala para quem eu vou ter que mentir dessa vez?" 
+    c "O certo seria galantear..." 
+    "Cillas apontou discretamente, assim  decreto foi quebrado pela ação brutal de 
+    Matheu, ao se virar e notar que seu olhar estava em direção a Nathali!" 
+    m "Mais oque!?!" 
+    scene ConversaCorredor 
+    "Após a lanchonete, Nathali se dirigia qualquer lugar da escola, já que a própria estava com as aulas paradas por conta dos preparativos para a reunião de pais."
+    m " Espere Nathali..." 
+    n "Eita!Matheu?" 
+    m "Sim, eu."
+    "Sabe a aquele momento de puro 
+    constrangimento, essa era a especialidade do 
+    Matheu." 
+    n " Então..." 
+    m " Eu queria saber se quer estudar comigo na biblioteca?" 
+    n "Matheu, quantas pingas você tomou hoje?" 
+    m "Nenhuma ora pois, porque pensaste isso?" 
+    n "Por nada! - Riu discretamente - Só tenho que pegar meus livros na sala ai vamos, tudo bem?" 
+    m "Claro! Leve o tempo que necessitar..." 
+
+
+
+
+
+
+    scene ConversaBibliotecazoom 
+    "De antemão, Cillas estava em uma das fileiras de livros na biblioteca, escondido sorrateiramente, concentrando-se à ouvir cada 
+    palavra da conversa, que antes instruirá Matheu em apenas ser cordial e atencioso"
+
+    "Cillas notou a chega do casal e tomou-se a ter ainda mais cautela" 
+    m " Então... Tu já comeu, pão com vinagrete?" 
+    c "É!Meu plano foi por água abaixo!" 
+    n "Nunca, talvez alguém leve um dia, sei lá sabes..." 
+    "Matheu notou a indireta e se corou de vergonha, e travou!" 
+
+
+
+
+
+
+
+
+    scene Escola 
+
+
+    "Papo vem, papo vai, Cillas estava quase dormindo em pé, quando ouviu um 'Matheus eu não tô muito bem, desde aquele dia... Rapidamente acordou de seu tédio, revivendo suas energias como uma velhinha fofoqueira em seus plenos 70." 
+    m" Como assim não está bem?" 
+    " Cillas notava a abertura da garota, contudo a lerdeza do Matheu sobrepuja como um muro" 
+    n " Desde quando eu vi a cena da professora, na sala, não consigo dormir direito" 
+    m "Olha, pode parecer besteira minha, mas não precisa ficar com esse temor sozinha, compartilhar um peso com alguém que se importa contigo pode ajudar!" 
+    n "Posso compartilhar com você?" 
+    "Matheu sorriu, pegou as mãos de Nathali então olhou em seus olhos" 
+    m "Sim! Pode!" 
+    n " Vou começar do princípio..." 
+    m" Cillas fechou os olhos então pois-se a 
+    deslumbrar imagens da noite/dia do assassino, comandando os fatos, narrados por nathali" 
+
+
+menu escolhasdoep4:
+
+
+    "A - Não acredito! Vou fazer a emboscada!":
+        jump eacolhaA 
+    "B - Não acredito! Vou pegar os suspeitos!":
+        jump eacolhaB 
+    "C - Não acredito... Vou contactar a Nathali":
+        jump escolhaC 
+
+
+
+label escolhaA:
+
+    
+    scene Finaldoep4escolhaAPARTEUM 
+    scene Finaldoep4escolhaAPARTEDOIS 
+    scene Finaldoep4escolhaABPARTEFINAL 
+
+label escolhaB:
+
+
+    scene Finaldoep4escolhaBPARTEUM 
+    scene Finaldoep4escolhaBPARTEDOIS 
+    scene Finaldoep4escolhaABPARTEFINAL 
+
+
+label escolhaC: 
+    scene Finaldoep4escolhaCPARTEUM
+    scene Finaldoep4escolhaCPARTEDOIS
+    scene Finaldoep4escolhaCBPARTEFINAL 
+
+
 
 
 
