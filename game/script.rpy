@@ -1554,24 +1554,33 @@ label finaldesfechoA:
 
 label finaldesfechoB:
 
-    scene desfechoBPARTEUM
-    scene desfechoBPARTEDOIS
+    scene FinaldoDESFECHOcolhaBPARTEUM
+    scene FinaldoDESFECHOcolhaBPARTEDOIS
+    scene FinaldoDESFECHOcolhaBPARTEFINAL
 
 
 
 
 label finaldesfechoC:
 
-    scene desfechoCPARTEUM
-    scene desfechoCPARTEDOIS
-
+    scene FinaldoDESFECHOcolhaCPARTEUM
+    scene FinaldoDESFECHOcolhaCPARTEFINAL
 
 
 
 label finaldesfechoD:
 
-    scene desfechoDPARTEUM
-    scene desfechoDPARTEDOIS
+    scene FinaldoDESFECHOcolhaDPARTEUM
+    scene FinaldoDESFECHOcolhaDPARTEDOIS
+    scene FinaldoDESFECHOcolhaDPARTEFINAL
+
+
+
+
+label finaldesfechoE:
+
+    scene FinaldoDESFECHOcolhaEPARTEUM
+    scene FinaldoDESFECHOcolhaEPARTEFINAL
 
 
 
