@@ -145,6 +145,13 @@ image CillasLanchonete="CilasLanchonete.png"
 image ConversaBiblioteca="ConversaBiblioteca.png"
 image CorredorConversa="CorredorConversa.png"
 image ConversaLanchonete="ConversaLanchonete"
+image ConversaFesta="ConversaFesta.png"
+image ConversaBanheiro="ConversaBanheiro.png"
+image MeninasQuadra="MeninasQuadra.png"
+image ObjetoSala="ObjetoSala.png"
+image ConversaCorredorEscola="ConversaFesta.png"
+image MuvulcaCorredor="MuvulcaCorredor.png"
+image ConversaFestaMeninas= "ConversaFestaMeninas.png"
 
 
 
@@ -1351,6 +1358,44 @@ label EP4perseguicao:
     "EP4"
 
 
+        scene ConversaCillasMatheu 
+    c "Tá na hora de me servir!" 
+    m "Ótimo de amigo, a criado em poucos dias!"
+    c "Amigos?" 
+    m "Me engana que eu gosto!... Fala para quem eu vou ter que mentir dessa vez?" 
+    c "O certo seria galantear..." 
+    "Cillas apontou discretamente, assim  decreto foi quebrado pela ação brutal de 
+    Matheu, ao se virar e notar que seu olhar estava em direção a Nathali!" 
+    m "Mais oque!?!" 
+    scene ConversaCorredor 
+    "Após a lanchonete, Nathali se dirigia qualquer lugar da escola, já que a própria estava com as aulas paradas por conta dos preparativos para a reunião de pais."
+    m " Espere Nathali..." 
+    n "Eita!Matheu?" 
+    m "Sim, eu."
+    "Sabe a aquele momento de puro 
+    constrangimento, essa era a especialidade do 
+    Matheu." 
+    n " Então..." 
+    m " Eu queria saber se quer estudar comigo na biblioteca?" 
+    n "Matheu, quantas pingas você tomou hoje?" 
+    m "Nenhuma ora pois, porque pensaste isso?" 
+    n "Por nada! - Riu discretamente - Só tenho que pegar meus livros na sala ai vamos, tudo bem?" 
+    m "Claro! Leve o tempo que necessitar..." 
+
+
+
+
+
+
+    scene ConversaBibliotecazoom 
+    "De antemão, Cillas estava em uma das fileiras de livros na biblioteca, escondido sorrateiramente, concentrando-se à ouvir cada 
+    palavra da conversa, que antes instruirá Matheu em apenas ser cordial e atencioso"
+
+    "Cillas notou a chega do casal e tomou-se a ter ainda mais cautela" 
+    m " Então... Tu já comeu, pão com vinagrete?" 
+    c "É!Meu plano foi por água abaixo!" 
+    n "Nunca, talvez alguém leve um dia, sei lá sabes..." 
+    "Matheu notou a indireta e se corou de vergonha, e travou!" 
 
 
 
@@ -1359,9 +1404,224 @@ label EP4perseguicao:
 
 
 
+    scene Escola 
+
+
+    "Papo vem, papo vai, Cillas estava quase dormindo em pé, quando ouviu um 'Matheus eu não tô muito bem, desde aquele dia... Rapidamente acordou de seu tédio, revivendo suas energias como uma velhinha fofoqueira em seus plenos 70." 
+    m" Como assim não está bem?" 
+    " Cillas notava a abertura da garota, contudo a lerdeza do Matheu sobrepuja como um muro" 
+    n " Desde quando eu vi a cena da professora, na sala, não consigo dormir direito" 
+    m "Olha, pode parecer besteira minha, mas não precisa ficar com esse temor sozinha, compartilhar um peso com alguém que se importa contigo pode ajudar!" 
+    n "Posso compartilhar com você?" 
+    "Matheu sorriu, pegou as mãos de Nathali então olhou em seus olhos" 
+    m "Sim! Pode!" 
+    n " Vou começar do princípio..." 
+    m" Cillas fechou os olhos então pois-se a 
+    deslumbrar imagens da noite/dia do assassino, comandando os fatos, narrados por nathali" 
+
+#cena da biblioteca
+
+n "Tudo se deu lá na festa do jardim"
+
+scene ConversaFesta
+
+n "Estava só a olhar o redor da festa... Eu vi você só coxilando"
+
+#cena da biblioteca
+
+m "Não vamos nos apegar aos detalhes, sobre mim! Continua..."
+
+n "Eu estava aproveitando, dai eu vi que o Julio com uma cara bem anormal do normal dele?"
+m "Como assim mais 'anormal que o normla'?"
+n "Ele não tava com um espirito de viver sabes? Sefuindo a história, eu cheguei nele para ver o que estava acontecendo"
+
+
+scene ConversaFesta
+
+n "Julio, você na festa, que surpresa"
+"Julio estava quieto em seu canto, de fone sem ao menos expressar sequer uma fraca respiração"
+n "Então, ta de olho em algum boy aqui ou..."
+"Exatamente com magia, as palavras de Nathali, direcionaram o foco do menino ao seu ex Pietro, rodiados de 'gados', sentiu um aperto no peito e saiu correndo"
+
+scene ConversaFestaMeninas
+n "Pietro, espera ai?"
+"Nessa hora, carla e Rose chegaram!"
+c "Oque houve Nathaali?"
+n "Não sei, ele só correru, acho que ele estava chorando..."
+r "De novo o Pietro! Coitado do garoto foi todo quebrado por dentro."
+n "Temos que ir atrás dele, reconforta-lo talvez ?"
+c and r "Vamos!"
+
+
+#cena da biblioteca
+
+n "Nessa hora, adentramos na escola. Estavamos mais caçando o Julio do que em busca dele "
+m "Vocês o encontra-lo, certo?"
+n "Sim! Ele estava naquele banheiro da pegação"
+m "Espera, tem um banheiro de pegação aqui na esciola?"
+"Matheu atua na hora como o santo Papa, finjindo que não foi o própio que começou a tendencia do: banheiro da pegação"
+
+scene ConversaBanheiro
+
+"No banheiro Nathali não ficou surpresa ao notar mais aop de biologia em foco em reprodução de diferentes formas, do que ná própia aula de biologia!"
+n "Julio?Julio?"
+j "Vai embora, me deixa em paz!"
+n "Julio... Minha cara yag, me desculpa pelo o que eu falei eu não..."
+j "Não é culpa sua é tudo daquele babaca do Pietro, sempre se falando de coitadinho, mas quando vejo ja ta disparando 'carisma branco' na cara dos outros!"
+n "Belo trocadilho!"
+"Os dois riram!"
+n "Tem algo que eu posssa fazer?"
+j "Eu so quero ficar sozinho mesmo, pode ser ?"
+n "Sem problemas! Qualquer coisa, estarei com as meninas!"
+j "Gradicido!"
+
+
+#cena da biblioteca
+
+m "Pera e onde estão as meninas?"
+n "A Rose e a Carla, foram juntos comigo, ana quadra, depois que falei que o Julio queria ficar um tempo ouvindo 'Olivia Rogério' "
+
+scene MeninasQuadra
+
+c "Onde tu tava mulher, parou em algum 'caminhão de leite?'"
+r "Acho que era o 'das flores Carla'!"
+n "Tava na sala da professora Scarlet, para poder pegar o molho de chaves do confessionário, afim de nossa estrela, brilhar ainda mais!"
+"Rose pulou do palcom e saiu correndo em direção a amiga com a chave."
+r "Brigado, brigado, brigado... Olha nadav contra flores, se você quiser sai plantando e fazendo matas e matas por ai!"
+n "An... ham! Sei!"
+
+#cena da biblioteca
+
+m "E é só isso?"
+n "Calma filho!"
+n "Nós ficamos um bom tempo na quadra vendo a Rose atuar e delira nos verbetes de Shakespeare, quando a Carla recebeu uma mensagem no grupo da sala!"
+
+scene MeninasQuadra
+
+c "Meninas?"
+r and n "Oque?"
+
+
+scene MuvulcaCorredor
+
+"As meninas sairam correndo, juntado a manada de jovenes correndo pelos corredores para escapar do zelador que se não fosse um milagre, nem o Big Bang o acordadva, casando o som que se alastrava pela escola !"
+n "Meninas eu esqueci que tenho que devolver a chave que eu 'peguei imprestado' da sala da professora, vão vocês eu as encontro!"
+
+"Nathali saiu correndo trombando em cada individuo ou espectro escuro naquele fusue lindo!"
+n "Desculpa Fred"
+n "Foi mal Conor"
+n "Stefanhy essa é a minha lacy?"
+
+
+scene ConversaCorredorEscola
+n "Eita! Perdão Pietro! Pietro?"
+p "Nathali, você viu o Julio, se o Zelador pega-lo é explusão na certa, preciso urgente saber onde aquele emo-cionado se meteu?"
+n "Ele deve estar no banheiro!"
+p "Valeu!"
+"Na mesma velocidade da conversa, equivaleu-se a ambos se separarem novamente!"
+
+scene ObjetoSala
+"Natalhi em disparada saiu correndo para a sala. Em minutos chegou ofegante em frente ao local "
+n "Pronto, agora só entrar e devolver a chave que eu 'gentilmente peguei emprestado sem a super visão'"
+"Ela estendeu a mão em direção a porta, a tocou e..."
+z "Quem esta ai?"
+n "Mias que hora em universo, que hora!"
+"Nathali simplismente sumiu em pleno corredor"
+
+
+#cena da biblioteca
+
+
+m "E foi ai que você..."
+n "Que eu descidi entegrar a chave de manhã, foi nessa hora que eu a vi, estirada no chão e marca da morte sobre todo espctro da sa..."
+"Nathali levou as mãos sobre seu rosto, tentando de alguma forma se esconder da visão pertubadora! "
+m "Eh! Eh! Eh! Não precisa ter medo, enfrente e terror que abala suas memorias... Não revivendo, mas sim o confrontando! "
+c "Caraca... Eu acho que está, sobrio! Nunca vi tamanha filosofagem"
+n "Não sei se eu consigo..."
+"Matheu segurou a mão de Nathali"
+m "Eu to aqui, mesmo que na escuridão perpetue em sua visão, sua segurança esta ao abrir os olhos e eu támbem"
+"Nathali sorriu, com as belas palavras de Matheu"
+m "A NASA tem que estudar esse garoto, sério!"
+"Ela começou a narrar o seu tormento!"
+n "Eu não lembro de tudo mas irei me esforçar"
+n "Andem pelos corredores e vi a sala, sem alunos, sem espetores, sem zelador, tudo estava quieto, nenhuma alma, nehuma sujeira, nada!"
+n "Entrei na sala e vi..."
+n "A sala toda vermelha, folhas espalhas pelo o chão, tinha terra em algumas partes e algumas rosas, e para um cadaver ela tinha um cheiro bem, peculiar!"
+n "Algo similar a perfume"
+m "Mais alguma coisa?"
+"Nathali tirou as mãos das de Matheu!"
+n "Tinha um papel no chão..."
+m "E..."
+m "O papel era seu Matheu, havia seu nome!"
+c "Será que ?"
+
+"Só havia uma palavra que passa pela mente de Cillas quando olhava para Matheu: 'ASSASSINO?'"
+
+
+menu escolhasdoep4:
+
+
+    "A - Não acredito! Vou fazer a emboscada!":
+        jump eacolhaA 
+    "B - Não acredito! Vou pegar os suspeitos!":
+        jump eacolhaB 
+    "C - Não acredito... Vou contactar a Nathali":
+        jump escolhaC 
 
 
 
+label Finaldoep3A:
+
+    scene Finaldoep3escolhaAPARTEUM
+    "Cillas vai até a diretora contar sobre sua descoberta, logo em seguida ele volta para seu quarto"
+
+
+    scene Finaldoep3escolhaAPARTEFINAL
+    "FinalVermelho"
+
+    jump start
+
+
+label Finaldoep3B:
+
+
+
+    scene Finaldoep3escolhaBPARTEUM
+    "Cillas sai da secretaria com um plano em mente"
+
+    scene Finaldoep3escolhaBPARTEDOIS
+    "Ira falar com cada um que estava presente na festa"
+
+    scene Finaldoep3escolhaBPARTEFINAL
+    "FinalVermelho"
+
+
+    jump start
+
+
+
+
+
+label Finaldoep3C:
+
+
+
+    scene Finaldoep3escolhaCPARTEUM
+    "Assassino percebe que á alguém junto a ele e foje logo em seguida"
+
+    scene Finaldoep3escolhaCPARTEDOIS
+    "Buscando ir a lanchonete para ver melhor, e clariar a mente com um grande dogão"
+
+    scene Finaldoep3escolhaCPARTETRES
+    "Nathali tinha o que o Cillas precisava para deduzir essa assassinato"
+
+
+
+
+# complementar com o resto da observação
+
+    scene Finaldoep3escolhaCPARTEFINAL
+    "FinalVermelho"
 
 
 
@@ -1459,24 +1719,33 @@ label finaldesfechoA:
 
 label finaldesfechoB:
 
-    scene desfechoBPARTEUM
-    scene desfechoBPARTEDOIS
+    scene FinaldoDESFECHOcolhaBPARTEUM
+    scene FinaldoDESFECHOcolhaBPARTEDOIS
+    scene FinaldoDESFECHOcolhaBPARTEFINAL
 
 
 
 
 label finaldesfechoC:
 
-    scene desfechoCPARTEUM
-    scene desfechoCPARTEDOIS
-
+    scene FinaldoDESFECHOcolhaCPARTEUM
+    scene FinaldoDESFECHOcolhaCPARTEFINAL
 
 
 
 label finaldesfechoD:
 
-    scene desfechoDPARTEUM
-    scene desfechoDPARTEDOIS
+    scene FinaldoDESFECHOcolhaDPARTEUM
+    scene FinaldoDESFECHOcolhaDPARTEDOIS
+    scene FinaldoDESFECHOcolhaDPARTEFINAL
+
+
+
+
+label finaldesfechoE:
+
+    scene FinaldoDESFECHOcolhaEPARTEUM
+    scene FinaldoDESFECHOcolhaEPARTEFINAL
 
 
 
