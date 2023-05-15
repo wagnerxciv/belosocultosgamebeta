@@ -1562,37 +1562,36 @@ menu escolhasdoep4:
 
 
     "A - Não acredito! Vou fazer a emboscada!":
-        jump eacolhaA 
+        jump Finaldoep4A 
     "B - Não acredito! Vou pegar os suspeitos!":
-        jump eacolhaB 
+        jump Finaldoep4B
     "C - Não acredito... Vou contactar a Nathali":
-        jump escolhaC 
+        jump Finaldoep4C
 
 
+label Finaldoep4A:
 
-label Finaldoep3A:
-
-    scene Finaldoep3escolhaAPARTEUM
+    scene Finaldoep4escolhaAPARTEUM
     "Cillas vai até a diretora contar sobre sua descoberta, logo em seguida ele volta para seu quarto"
 
 
-    scene Finaldoep3escolhaAPARTEFINAL
+    scene Finaldoep4escolhaAPARTEFINAL
     "FinalVermelho"
 
     jump start
 
 
-label Finaldoep3B:
+label Finaldoep4B:
 
 
 
-    scene Finaldoep3escolhaBPARTEUM
+    scene Finaldoep4escolhaBPARTEUM
     "Cillas sai da secretaria com um plano em mente"
 
-    scene Finaldoep3escolhaBPARTEDOIS
+    scene Finaldoep4escolhaBPARTEDOIS
     "Ira falar com cada um que estava presente na festa"
 
-    scene Finaldoep3escolhaBPARTEFINAL
+    scene Finaldoep4escolhaBPARTEFINAL
     "FinalVermelho"
 
 
@@ -1602,17 +1601,17 @@ label Finaldoep3B:
 
 
 
-label Finaldoep3C:
+label Finaldoep4C:
 
 
 
-    scene Finaldoep3escolhaCPARTEUM
+    scene Finaldoep4escolhaCPARTEUM
     "Assassino percebe que á alguém junto a ele e foje logo em seguida"
 
-    scene Finaldoep3escolhaCPARTEDOIS
+    scene Finaldoep4escolhaCPARTEDOIS
     "Buscando ir a lanchonete para ver melhor, e clariar a mente com um grande dogão"
 
-    scene Finaldoep3escolhaCPARTETRES
+    scene Finaldoep4escolhaCPARTETRES
     "Nathali tinha o que o Cillas precisava para deduzir essa assassinato"
 
 
@@ -1620,7 +1619,7 @@ label Finaldoep3C:
 
 # complementar com o resto da observação
 
-    scene Finaldoep3escolhaCPARTEFINAL
+    scene Finaldoep4escolhaCPARTEFINAL
     "FinalVermelho"
 
 
